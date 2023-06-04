@@ -1,0 +1,542 @@
+* { 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em ;
+    font-size: 1.8em;
+    color: #333533;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+a {
+    text-decoration: none;
+    color: #333533;
+    }
+.volver {
+    display: block;
+    text-align: right;
+    margin: 1.25em;
+}
+p {
+    font-size: 1.5em;
+    color: #333533;
+    font-weight: bold;
+}
+.va {
+    font-size: 1em;
+    color: #333533;
+    font-weight: bold;
+}
+
+/*Formato encabezado */
+
+header { 
+    background-color:#D6D6D6;
+    padding-top: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    box-shadow: 0em 0.18em 0.3em rgba(0, 0, 0, 0.2);
+}
+.navbar-custom {
+    background-color:#D6D6D6 !important;
+  }
+.contenedor-header { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+   }
+.logo { 
+    justify-items: left;
+    width: 6em;
+    margin-right: auto;
+}
+h1 { 
+    font-size: 6em;
+    letter-spacing: 0.4em;
+    color: #333533;
+    text-align: center;
+    font-weight: bold;
+    justify-items: center;
+}
+h2 {
+    font-size: 3em;
+    text-align: center;
+    margin: 2em;
+    color: #333533;
+    letter-spacing: 0.3em;
+}
+.icono-carrito {
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+}
+.carrito {
+   display: flex;
+   justify-content: end;
+}
+/* Formato categorias inicio */
+
+.categorias-imagenes-inicio { 
+        width: 15em;
+        height: 15em;
+        border-radius: 15%;
+        margin: 0.3em;
+    }
+.titulo-imagenes-categorias {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+.contenedor {
+        display: flex;
+        justify-content: center;
+    }
+div p {
+        font-size: 1.5em;
+        margin: 0.2em;
+    }
+
+/*Formato Productos inicio*/
+
+.productos-imagenes-inicio { 
+        width: 25%;
+        height: 25%;
+        margin: 1em;
+        padding: 1em;
+    }
+.contenedor-productos-inicio {
+    display: flex;
+    justify-content: space-around
+}
+
+/* Imagenes New in incio */
+
+.mi-carousel {
+    display: none;
+}
+.imagenes-newin1 {
+    width: 27em;
+    margin: 1em;
+}
+.imagenes-newin2 {
+    height: 12em;
+    margin: 1.5em;
+}
+.contenedor-newin-inicio {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-newin2 {
+    width: 31em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+
+footer {
+    background-color: #F5CB5C;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.icono { 
+    width: 2em;
+    height: 2em;
+    margin-right: 0.5em;
+}
+.icono-logo {
+    width: 6em;
+    height: 6em;
+    margin: 1.50em;
+}
+
+.redes-footer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333533;
+  }
+.redes-footer p {
+    margin: 0;
+    font-size: 1em;
+  } 
+
+/* Paginas */
+
+.logo-paginas { 
+    width: 3em;
+}
+
+/* Pagina Productos */
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.caja-producto {
+    width: 19em;
+    height: 30em;
+    background-color: rgba(245, 203, 92, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #333533;
+    margin: 2em;
+}
+.prodcutos-imagenes {
+    width: 17.5em;
+    height: 18em;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+}
+div h3 {
+    display: block;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+h4 {
+    display: block;
+    text-align: right;
+    padding-right: 0.5em;
+}
+.comprar {
+ display: block;
+ padding: 0.2em;
+ margin: 0.5em;
+}
+.comprar:hover {
+    background-color: #D6D6D6;
+    font-weight: bolder;
+    border-color: #333533;
+} 
+
+/* Pagina categorias */
+
+.contenedor-categorias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 0.5em;
+  }
+.categorias-imagenes {
+    width: 70%;
+    height: 70%;
+    border-radius: 15%
+}
+.titulo-categorias {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+/* Pagina contactos */
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-color: #D6D6D6;
+   }
+.formulario {
+    display: flex;
+    width: 400px;
+    padding: 10px;
+    justify-content: center;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15%;
+}
+form {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+h6 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #333533;
+    letter-spacing: 5px;
+}
+.contenedor-redes {
+    display: flex;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-redes img {
+    display: block;
+    margin: 0 auto;
+  }
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+.mapa-grande {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+textarea  {
+    display: block;
+} 
+.button-form {
+    background-color: rgba(245, 203, 92, 0.5);
+    border-color: #333533;
+} 
+.button-form:hover {
+    background-color:#f5cb5c;
+    font-weight: bolder;
+    border-color: #333533;
+} 
+.enfocar:focus {
+    outline: none;
+    border-color: #F5CB5C;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+.contacto-redes {
+    width: 3em;
+}
+
+/* Pagina Vino */
+
+.caja-vino {
+    width: 19em;
+    height: 30em;
+    background-color: #D6D6D6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #333533;
+    margin: 2em;
+}
+.comprar:hover {
+    background-color: #575a5e;
+    font-weight: bolder;
+    border-color: #333533;
+    color: #D6D6D6;
+} 
+
+@media (max-width: 1024px) {
+    a p {
+        font-size: 1.5em;
+    }
+    h1 { 
+        font-size: 3em;
+        margin-right: auto;
+        letter-spacing: 0.4em;
+    }
+    h2 {
+        font-size: 2em;
+        text-align: center;
+        margin: 1em;
+        color: #333533;
+        letter-spacing: 0.3em;
+        padding: 0.5em;
+    }
+    /*Header Inicio*/
+    .logo { 
+        width: 4em;
+        margin-right: auto;
+    }
+    li {
+        padding: 0.5em;
+    }
+    .va {
+        display: none;
+    }
+    /*Categorías inicio*/
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2;
+        margin-top: 3em;
+        }
+    .categorias-imagenes-inicio { 
+        width: 100%;
+        height: 50%;
+        border-radius: 15%;
+        margin: 0.5em;
+    }
+    /* Productos inicio*/
+
+    .contenedor-productos-inicio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .productos-imagenes-inicio { 
+        width: 40%;
+        height: 40%;
+        margin: 1em;
+    }
+    .producto-no { 
+        display: none;
+        } 
+    /*New in inicio*/
+
+    .imagenes-newin1{
+        width: 50%;
+        height: 50%;
+        margin: 0.5em;
+    }
+    .contenedor-newin2 { 
+        display: none;
+        } 
+    /*Footer*/
+
+    .icono {
+        width: 1.5em;
+        height: 1.5em;
+        margin: 0.5em;
+    }
+    .icono-logo {
+        width: 2.5em;
+        height: 2.5em;
+        margin: 1em;
+    }
+    .mapita { 
+        display: none;
+    } 
+    .redes-footer p {
+        display: none;
+    }  
+    .contenedor-productos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+    .caja-producto {
+        width: 14em;
+        height: 24em;
+        margin: 0.5em;
+    }
+    .prodcutos-imagenes {
+        width: 12.5em;
+        height: 13em;
+        margin-top: 1em;
+    }
+    div h3 {
+        padding: 0.3em;
+        font-size: 1em;
+    }
+    h4 {
+        padding-right: 0.5em;
+    }
+    .comprar {
+        padding: 0.2em;
+        margin: 0.3em;
+    }   
+    /*Pagina Categorias*/
+
+    .contenedor-categorias {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 0.5em;
+      }
+    .categorias-imagenes {
+        width: 50%;
+        height: 50%;
+    }     
+
+    .caja-vino {
+        width: 14em;
+        height: 24em;
+        margin: 1em;
+    }
+} 
+    @media (max-width: 480px) { 
+    h1 { 
+        font-size: 2.5em;
+        margin-right: auto;
+        letter-spacing: 0.2em;
+    }
+    h2 {
+        font-size: 2.3em;
+        text-align: center;
+        margin: 1em;
+        color: #333533;
+        letter-spacing: 0.3em;
+    }
+    .titulo-paginas {
+        font-size: 1.8em;
+        text-align: center;
+        margin: 1em;
+        color: #333533;
+        letter-spacing: 0.3em;
+    }
+    .logo { 
+        padding: 0.5em;
+    }
+    li {
+        padding: 0.2em;
+        font-size: 0.8em;
+    }
+    a { 
+        font-size: 0.5em;
+    } 
+    .redes-footer p {
+        display: none;
+    } 
+    /*Pagina Productos*/
+
+    .contenedor-productos {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+    /*Pagina Categorias*/
+
+    .contenedor-categorias {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    }
