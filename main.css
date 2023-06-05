@@ -77,11 +77,11 @@ h2 {
     letter-spacing: 0.3em;
 }
 .icono-carrito {
-    width: 2em;
-    height: 2em;
+    width: 3em;
+    height: 3em;
     padding: 0.5em;
 }
-.carrito {
+.carrito-usuario {
    display: flex;
    justify-content: end;
 }
@@ -178,12 +178,6 @@ footer {
     margin: 0;
     font-size: 1em;
   } 
-
-/* Paginas */
-
-.logo-paginas { 
-    width: 3em;
-}
 
 /* Pagina Productos */
 
@@ -491,8 +485,6 @@ textarea  {
 } 
     @media (max-width: 480px) { 
     h1 { 
-        font-size: 2.5em;
-        margin-right: auto;
         letter-spacing: 0.2em;
     }
     h2 {
@@ -510,6 +502,7 @@ textarea  {
         letter-spacing: 0.3em;
     }
     .logo { 
+        width: 3.8em;
         padding: 0.5em;
     }
     li {
