@@ -261,7 +261,7 @@ h4 {
 .info { 
     width: 3em;
     height: 3em;
-    margin-right: 0.5em;
+    margin: 0.8em;
 }
 .contenedor-info {
     display: block;
@@ -269,9 +269,9 @@ h4 {
     justify-content: start;
     text-align: start;
   }
-  .mapa-grande {
-    margin-left: 10em;
-    width: 50em;
+.mapa-grande {
+    margin-left: auto;
+    width:90%;
     justify-items: end;
     align-items: end;
 }
@@ -279,49 +279,51 @@ h4 {
     margin: 0.5em;
     font-size: 2em;
   } 
-
+.informacion {
+    font-size: 1.2em;
+  } 
 .contenedor-formulario {
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 8em;
     background-color: #D6D6D6;
    }
 .formulario {
     display: flex;
-    width: 400px;
-    padding: 10px;
+    width: 25em;
+    padding: 06em;
     justify-content: center;
-    margin: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 0.6em;
+    padding-top: 1.25em;
+    padding-bottom: 1.5em;
     border-radius: 15%;
 }
 form {
     display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 label {
     display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    padding: 0.3em;
 }
 input {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    padding: 0.3em;
 }
 h6 {
-    font-size: 30px;
+    font-size: 2em;
     text-align: center;
-    padding: 10px;
+    padding: 0.6em;
     color: #333533;
-    letter-spacing: 5px;
+    letter-spacing: 0.3em;
 }
 .contenedor-redes {
     display: flex;
-    padding: 10px;
+    padding: 0.6em;
     margin-top: 100px;
     margin-bottom: 150px;
     justify-content: center;
@@ -337,6 +339,7 @@ textarea  {
 .button-form {
     background-color: rgba(245, 203, 92, 0.5);
     border-color: #333533;
+    margin-bottom: 2em;
 } 
 .button-form:hover {
     background-color:#f5cb5c;
@@ -397,6 +400,7 @@ textarea  {
     .va {
         display: none;
     }
+
     /*Categorías inicio*/
 
     .contenedor {
@@ -404,12 +408,15 @@ textarea  {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 2;
         margin-top: 3em;
+        justify-content: center;
+        align-items: center; 
+
         }
     .categorias-imagenes-inicio { 
-        width: 100%;
+        width: 95%;
         height: 50%;
         border-radius: 15%;
-        margin: 0.5em;
+        padding: 0.5em;
     }
     /* Productos inicio*/
 
@@ -421,7 +428,10 @@ textarea  {
     .productos-imagenes-inicio { 
         width: 40%;
         height: 40%;
-        margin: 1em;
+        margin: 0.3em;
+        padding: 0.3em;
+        justify-content: center;
+        align-items: center;
     }
     .producto-no { 
         display: none;
@@ -502,13 +512,41 @@ textarea  {
         height: 24em;
         margin: 1em;
     }
+
+    /*Pagina Contacto*/
+    .contenedor-mapa-info  {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 6em;
+      }
+    .info { 
+        width: 3em;
+        height: 3em;
+    }
+    .contenedor-info {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .mapa-grande {
+        margin: 2em;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 } 
     @media (max-width: 480px) { 
     h1 { 
-        letter-spacing: 0.2em;
+        letter-spacing: 0.3em;
     }
     h2 {
-        font-size: 2.3em;
+        font-size: 2.5em;
         text-align: center;
         margin: 1em;
         color: #333533;
@@ -525,7 +563,7 @@ textarea  {
         letter-spacing: 0.3em;
     }
     .logo { 
-        width: 3.8em;
+        width: 5.5em;
         padding: 0.5em;
     }
     li {
