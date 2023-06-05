@@ -102,6 +102,7 @@ h2 {
 .contenedor {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
 div p {
         font-size: 1.5em;
@@ -150,7 +151,7 @@ footer {
     background-color: #F5CB5C;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 0.6em;
     justify-items: center;
     justify-content: center;
     align-items: center;
@@ -324,8 +325,8 @@ h6 {
 .contenedor-redes {
     display: flex;
     padding: 0.6em;
-    margin-top: 100px;
-    margin-bottom: 150px;
+    margin-top: 6.25em;
+    margin-bottom: 9em;
     justify-content: center;
     align-items: center;
 }
@@ -410,7 +411,6 @@ textarea  {
         margin-top: 3em;
         justify-content: center;
         align-items: center; 
-
         }
     .categorias-imagenes-inicio { 
         width: 95%;
