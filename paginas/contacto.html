@@ -54,19 +54,38 @@
     </header>
         <h2 class="titulo-paginas">Contacto</h2>
         <section class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.2104441040988!2d-56.168047200000004!3d-34.901168000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81ada66f7adf%3A0x9b2cd8663ffaf0bb!2sJuan%20Paullier%20%26%20Palmar%2C%2011200%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1683391023158!5m2!1ses!2suy" width="1600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa-grande"></iframe>
-            </section>
+          <div class="contenedor-mapa-info">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.2104441040988!2d-56.168047200000004!3d-34.901168000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81ada66f7adf%3A0x9b2cd8663ffaf0bb!2sJuan%20Paullier%20%26%20Palmar%2C%2011200%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1683391023158!5m2!1ses!2suy" width="1600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa-grande">Becrux</iframe>
+            <div>
+              <div class="contenedor-info">
+                <img src="../imagenes/placeholder.png" alt="ubicacion" class="info">
+                <p>Paullier y Palmar, Cordón, Montevideo, Uruguay</p>
+              </div>
+              <div class="contenedor-info">
+                <img src="../imagenes/clock.png" alt="reloj" class="info">
+                <p>Lunes a Viernes: 10 a 13 - 15 a 19</p>
+              </div>
+              <div class="contenedor-info">
+                <img src="../imagenes/smartphone.png" alt="celular" class="info">
+                <p>096298827</p>
+              </div>
+          </div>
+        </section>
+            <h3 class="esc">Escribinos</h3>
         <section class="contenedor-formulario">
             <form action="" method="post">
                 <label for="nombre">Nombre</label>
                 <input type="text"  placeholder="Juan Pérez" class="enfocar" name="nombre" id="nombre">
+                <label for="celular">celular</label>
+                <input type="text"  placeholder="099112233" class="enfocar" name="celular" id="celular">
                 <label for="email">Email</label>
                 <input type="email" placeholder="juanperez@gmail.com" class="enfocar" name="email" id="email">
                 <label for="">Consulta</label>
-                <textarea name="consulta" id="consulta" cols="30" rows="10" class="enfocar"></textarea>
+                <textarea name="consulta" id="consulta" cols="30" rows="10" class="enfocar" placeholder="¿Qué tienes en mente?"></textarea>
                 <input type="submit" value="Enviar" class="button-form">
                 <input type="reset" value="Borrar" class="button-form">
             </form>
+          </div>
         </section>
     <section>
       <div class="contenedor-redes">

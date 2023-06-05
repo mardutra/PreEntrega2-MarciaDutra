@@ -250,6 +250,35 @@ h4 {
   }
 
 /* Pagina contactos */
+.contenedor-mapa-info  {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10em;
+  }
+.info { 
+    width: 3em;
+    height: 3em;
+    margin-right: 0.5em;
+}
+.contenedor-info {
+    display: block;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+  }
+  .mapa-grande {
+    margin-left: 10em;
+    width: 50em;
+    justify-items: end;
+    align-items: end;
+}
+.esc {
+    margin: 0.5em;
+    font-size: 2em;
+  } 
 
 .contenedor-formulario {
     display: flex;
@@ -302,15 +331,6 @@ h6 {
     display: block;
     margin: 0 auto;
   }
-.mapa {
-    display: flex;
-    justify-content: center;
-}
-.mapa-grande {
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
 textarea  {
     display: block;
 } 
@@ -493,6 +513,9 @@ textarea  {
         margin: 1em;
         color: #333533;
         letter-spacing: 0.3em;
+    }
+    .carrito-usuario { 
+        padding: 0.8em;
     }
     .titulo-paginas {
         font-size: 1.8em;
